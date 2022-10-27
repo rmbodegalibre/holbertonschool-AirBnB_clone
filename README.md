@@ -1,5 +1,5 @@
 <h1 class="gap">0x00. AirBnB clone - The console</h1>
-<p><img src="https://bn1305files.storage.live.com/y4mBZR2qGhr3lq4SPgnxJopyyHtZzlMvrbMZ5dilioNByiUNFB7nnxvWGDBpKTFGexwr5bv-frUJk5BVifP0imGy_YT6h-hiORX5Le75x5-AE5iAO_N558BjQhWICc9RrAuDVFjfR9C8dxTpWjOTkHMSj6ZpRO3kgka67OFsXaYLNkTbuO4jqAA1isrlsJkOuQ4_BGCv10UBCtjyGAgPc85SOOdwP2yUERQ7JE9Ha2IoHc?encodeFailures=1&amp;width=1920&amp;height=810" width="517" height="218" /></p>
+<p></p>
 <h4>First step: Write a command interpreter to manage your AirBnB objects.</h4>
 <p>This is the first step towards building your first full web application: the&nbsp;<strong>AirBnB clone</strong>. This first step is very important because you will use what you build during this project with all other following projects: HTML/CSS templating, database storage, API, front-end integration&hellip;</p>
 <p>Each task is linked and will help you to:</p>
@@ -22,7 +22,7 @@
 <h2 dir="auto">Installation</h2>
 <p dir="auto">Clone the repository and run the console.py</p>
 <div class="snippet-clipboard-content notranslate position-relative overflow-auto">
-<pre class="notranslate"><code>$ git clone <a href="https://github.com/SebastianBlandon/holbertonschool-AirBnB_clone.git">https://github.com/elprofe/AirBnB_clone.git</a><br /></code></pre>
+<pre class="notranslate"><code>$ git clone <br /></code></pre>
 </div>
 <h4 dir="auto">How to Use Command Interpreter</h4>
 <hr />
@@ -114,18 +114,18 @@ EOF  help  quit
 $
 </code></pre>
 <p>All tests should also pass in non-interactive mode:&nbsp;<code>$ echo "python3 -m unittest discover tests" | bash</code></p>
-<p><img src="https://bn1305files.storage.live.com/y4mN6nr7GPEaSdKtLb2zk_Rmx3KzgggzaO_o8gCxCxuRbZGZ84zHfdsDM47t9-DiJCNWPc-EZl7NDOpbMKlsNitsthxTvTVoFSmp11upbDDWVLYhhhO7y5a9ruCBZhBGUKLXGHYgzE2d1dmiblA6kVPe_nLjUsPtmeBYSIeu0SrO4lXJKYISozaeTA1nk8FLHQ8IVFau8Ymk1w42wi2MUJEQZYA9Ogdrq53asavvExjkGk?encodeFailures=1&amp;width=1257&amp;height=669" alt="" /></p>
+<p></p>
 <h2 dir="auto">Examples</h2>
-<p dir="auto">To run <br /><img src="https://bn1305files.storage.live.com/y4mcfX4YBIBzEUYLzxZeDlsR2Rb5Q6gxPMNRv4sg2FpTHYEmGgljvVn_JQviMjt4nDT3pGAFkPlzH6htS7QqnjZtLVKq3Tu9ZhSGR-sIF4_LgMEiEzlJfcrezbpc6Fxd5I_AaMPrlczGazEk8pUJqzdFd5LmXcRjaBqE5eEfwn0sdIE6XramdgCh8S_ErSHuZWm3mHdcy2g-ncjNMfZoi32Iuf96L7lQNwWSQMK_qMY_gE?encodeFailures=1&amp;width=704&amp;height=552" width="572" height="241" /></p>
-<h2 dir="auto"><a id="user-content-bugs" class="anchor" href="https://github.com/Robert-octavo/monty#bugs" aria-hidden="true"></a>Bugs</h2>
+<p dir="auto">To run <br /></p>
+<h2 dir="auto"><a id="user-content-bugs" class="anchor" aria-hidden="true"></a>Bugs</h2>
 <p style="color: #5e9ca0;"><span style="color: #000000;">Here is a small list of bugs that were fixed. This program is still under review.</span></p>
-<h2 dir="auto"><a id="user-content-files" class="anchor" href="https://github.com/Robert-octavo/monty#files" aria-hidden="true"></a>Files</h2>
+<h2 dir="auto"><a id="user-content-files" class="anchor" aria-hidden="true"></a>Files</h2>
 <p style="color: #5e9ca0;"><span style="color: #000000;">Files include are:</span><br /><span style="color: #000000;">README.md<br />AUTHORS<br />console.py<br />tests/<br />models/__init__.py<br />models/base_model.py<br />models/user.py<br />models/state.py<br />models/city.py<br />models/amenity.py<br />models/place.py<br /></span><span style="color: #000000;">models/review.py<br />models/engine/__init__.py<br />models/engine/file_storage.py<br /></span></p>
-<h2 dir="auto"><a id="user-content-history" class="anchor" href="https://github.com/Robert-octavo/monty#history" aria-hidden="true"></a>History</h2>
+<h2 dir="auto"><a id="user-content-history" class="anchor" aria-hidden="true"></a>History</h2>
 <p style="color: #5e9ca0;"><span style="color: #000000;">This is the first version</span></p>
-<h2 dir="auto"><a id="user-content-authors" class="anchor" href="https://github.com/Robert-octavo/monty#authors" aria-hidden="true"></a>Authors</h2>
+<h2 dir="auto"><a id="user-content-authors" class="anchor"  aria-hidden="true"></a>Authors</h2>
 <p style="color: #5e9ca0;"><span style="color: #000000;">Written by David Stiven Perlaza &amp; Ricardo Monta&ntilde;a.</span><br /><span style="color: #000000;">October 28th, 2022</span></p>
-<h2 dir="auto"><a id="user-content-copyright" class="anchor" href="https://github.com/Robert-octavo/monty#copyright" aria-hidden="true"></a>Copyright</h2>
+<h2 dir="auto"><a id="user-content-copyright" class="anchor" aria-hidden="true"></a>Copyright</h2>
 <p style="color: #5e9ca0;"><span style="color: #000000;">&copy; All rights reserved</span></p>
 <p>&nbsp;</p>
 

@@ -2,6 +2,7 @@
 """
 class BaseModel that defines all common attributes/methods for other classes
 """
+from time import strftime
 from uuid import uuid4
 from datetime import datetime
 
@@ -40,6 +41,8 @@ class BaseModel():
         the instance:"""
         dictionary = self.__dict__.copy()
         dictionary["__class__"] = self.__class__.__name__
-        self.created_at = self.created_at.isoformat()
-        self.updated_at = self.updated_at.isoformat()
+        #self.created_at = self.created_at.isoformat()
+        #self.updated_at = self.updated_at.isoformat()
+        self.created_at = self.created_at.strftime("%Y-%m-%dT%H:%M:%S.%f")
+        self.updated_at = self.updated_at.strftime("%Y-%m-%dT%H:%M:%S.%f")
         return dictionary

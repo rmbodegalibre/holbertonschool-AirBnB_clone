@@ -39,10 +39,10 @@ class BaseModel():
     def to_dict(self):
         """returns a dictionary containing all keys/values of __dict__ of
         the instance:"""
+        self.created_at = self.created_at.strftime("%Y-%m-%dT%H:%M:%S.%f")
+        self.updated_at = self.updated_at.strftime("%Y-%m-%dT%H:%M:%S.%f")        
         dictionary = self.__dict__.copy()
         dictionary["__class__"] = self.__class__.__name__
         #self.created_at = self.created_at.isoformat()
         #self.updated_at = self.updated_at.isoformat()
-        self.created_at = self.created_at.strftime("%Y-%m-%dT%H:%M:%S.%f")
-        self.updated_at = self.updated_at.strftime("%Y-%m-%dT%H:%M:%S.%f")
         return dictionary

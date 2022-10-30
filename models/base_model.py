@@ -27,7 +27,7 @@ class BaseModel():
         self.updated_at = datetime.today()
     
     def __str__(self):
-        """__str__ Method prints [<class name>] (<self.id>) <self.__dict__>"""
+        """_str_ Method prints [<class name>] (<self.id>) <self.__dict__>"""
         return "[{}] ({}) {}"\
                 .format(BaseModel.__name__, self.id, self.__dict__)  
 
@@ -37,16 +37,12 @@ class BaseModel():
         self.updated_at = datetime.today()
 
     def to_dict(self):
-        """returns a dictionary containing all keys/values of __dict__ of
+        """returns a dictionary containing all keys/values of _dict_ of
         the instance:"""
         self.created_at = self.created_at.strftime("%Y-%m-%dT%H:%M:%S.%f")
         self.updated_at = self.updated_at.strftime("%Y-%m-%dT%H:%M:%S.%f")        
         dictionary = self.__dict__.copy()
-        dictionary["__class__"] = self.__class__.__name__
+        dictionary["_class_"] = self.__class__.__name__
         #self.created_at = self.created_at.isoformat()
         #self.updated_at = self.updated_at.isoformat()
-<<<<<<< HEAD
         return dictionary
-=======
-        return dictionary
->>>>>>> f7bd453ab3497e7a48c680ad4a83f16a94d404cc

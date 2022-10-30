@@ -45,4 +45,8 @@ class BaseModel():
         dictionary["__class__"] = self.__class__.__name__
         #self.created_at = self.created_at.isoformat()
         #self.updated_at = self.updated_at.isoformat()
+<<<<<<< HEAD
         return dictionary
+=======
+        return dictionary
+>>>>>>> f7bd453ab3497e7a48c680ad4a83f16a94d404cc

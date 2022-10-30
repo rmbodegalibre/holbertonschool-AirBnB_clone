@@ -1,11 +1,26 @@
 #!/usr/bin/python3
+<<<<<<< HEAD
+"""Module for Base class
+Contains the Base class for the AirBnB clone console.
+"""
+
+=======
 """
 This module contains a class BaseModel that defines
 all common attributes/methods for other classes:
 """
+>>>>>>> 9fc2e9b3284c423c12dd8a259b0760cde2cc1dd0
 import uuid
 from datetime import datetime
+from models import storage
 
+
+class BaseModel:
+
+<<<<<<< HEAD
+    """Class for base model of object hierarchy."""
+=======
+>>>>>>> 9fc2e9b3284c423c12dd8a259b0760cde2cc1dd0
 
 class BaseModel():
     """
@@ -57,10 +72,26 @@ class BaseModel():
             self.id = str(uuid.uuid4())
             self.created_at = datetime.now()
             self.updated_at = datetime.now()
+<<<<<<< HEAD
+            storage.new(self)
+=======
+>>>>>>> 9fc2e9b3284c423c12dd8a259b0760cde2cc1dd0
 
     def __str__(self):
         """Returns a human-readable string representation
         of an instance."""
+<<<<<<< HEAD
+
+        return "[{}] ({}) {}".\
+            format(type(self).__name__, self.id, self.__dict__)
+
+    def save(self):
+        """Updates the updated_at attribute
+        with the current datetime."""
+
+        self.updated_at = datetime.now()
+        storage.save()
+=======
         return ("[{}] ({}) {}".
         format(type(self).__name__, self.id, self.__dict__))
 
@@ -71,6 +102,7 @@ class BaseModel():
         """
         # self.created_at = datetime.now()
         self.updated_at = datetime.now()
+>>>>>>> 9fc2e9b3284c423c12dd8a259b0760cde2cc1dd0
 
     def to_dict(self):
         """Returns a dictionary representation of an instance."""

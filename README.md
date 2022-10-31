@@ -196,7 +196,7 @@ Quit command to exit the program</code></p>
 <p dir="auto">&nbsp;</p>
 <h2 dir="auto">Deserialization</h2>
 <p dir="auto">Deserialization consists of converting a string into a Python object (usually a list or dictionary).</p>
-<h2>Deserializando JSON</h2>
+<h2>Deserializing JSON</h2>
 <p>In the json library, you'll find load() and loads() to convert JSON-encoded data into Python objects.</p>
 <p>Like serialization, there is a simple conversion table for deserialization, although you can probably already guess what it looks like.</p>
 <table>
@@ -325,35 +325,33 @@ import A
 <p>The Python import statement imports code from one module into another program. You can import all the code from a module by specifying the import keyword followed by the module you want to import.</p>
 <p>import statements appear at the top of a Python file, beneath any comments that may exist. This is because importing modules or packages at the top of a file makes the structure of your code clearer.</p>
 <p>The syntax for the import statement is:</p>
-<div>
+
   <pre>import [module]</pre>
-</div>
+
 <p>Let&rsquo;s look at an example of the Python import statement.</p>
 <p>If we wanted to import the sys library, we could use:</p>
-<div>
+
   <pre>import sys</pre>
-</div>
+
 <h2>import Python: Using the from Statement</h2>
 <p>The import statement allows you to import all the functions from a module into your code.</p>
 <p>Often, though, you&rsquo;ll only want to import a few functions, or just one. If this is the case, you can use the from statement. This lets you import only the exact functions you are going to be using in your code.</p>
 <p>The syntax for using the from statement is:</p>
-<div>
+
   <pre>from [module] import [function or value]</pre>
-</div>
+
 <p>Suppose we only want to import the choice() function from the &ldquo;random&rdquo; library into our code. We could do so like this:</p>
-<div>
+
   <pre>from random import choice    fruits = [&quot;Apple&quot;, &quot;Pear&quot;, &quot;Banana&quot;]    print(choice(fruits))  </pre>
-</div>
+
 <p>Our code returns:</p>
-<div>
+
   <pre>Pear</pre>
-</div>
+
 <p>We use the <em>from</em> keyword, followed by <em>random</em>, to tell our program that we want to import a specific function from the &ldquo;random&rdquo; module. Then, we use the <em>import</em> keyword to tell our code what function we want to import.</p>
 <p>When using the <em>from</em> keyword to import a function, you do not need to write the function using dot notation. As you can see above, instead of using <em>random.choice()</em> to access the <em>random.choice()</em> function from the random module, we just use <em>choice()</em>.</p>
 <h2 dir="auto">Clean Code &iquest;what is it?</h2>
-<div id="c267249">
-  <div class="text-row ce-textpic ce-center ce-above">
-<div class="ce-bodytext">
+
 <p><span>Clean&nbsp;</span><em><span>code</span></em><span>&nbsp;is not a set of strict rules, but rather a set of principles that help produce code that is intuitive and easy to modify.&nbsp;In this context, intuitive means that any professional developer can immediately understand it.&nbsp;An easily adaptable code has the following characteristics:</span></p>
 <ul>
 <li><span>The&nbsp;</span><strong><span>execution sequence of</span></strong><span>&nbsp;the entire program follows a&nbsp;</span><strong><span>logical</span></strong><span>&nbsp;and</span><span>it has a&nbsp;</span><strong><span>simple structure</span></strong><span>&nbsp;.</span></li>
@@ -366,18 +364,11 @@ import A
 <li><span>Classes and methods are&nbsp;</span><strong><span>predictable</span></strong><span>&nbsp;, work as expected, and are publicly accessible through well-documented APIs (interfaces).</span></li>
 <li><span>The code has been subjected to&nbsp;&nbsp;</span><strong><a href="https://www.ionos.es/digitalguide/paginas-web/desarrollo-web/el-papel-del-unit-test-en-el-desarrollo-de-software/"><span>unit tests</span></a></strong><span>&nbsp;.</span></li>
 </ul>
-</div>
-</div>
-</div>
-<div id="c267250">
-<div class="text-row ce-textpic ce-center ce-above">
-<div class="ce-bodytext">
+
 <p>The advantages of this type of programming are obvious: the&nbsp;<em>clean code</em>&nbsp;becomes&nbsp;<strong>independent of the developer who created it</strong>&nbsp;.&nbsp;In principle, any programmer can work with it, which avoids problems such as those associated with&nbsp;&nbsp;<a title="What is the legacy code?" href="https://www.ionos.es/digitalguide/paginas-web/desarrollo-web/que-es-el-legacy-code/">legacy code</a>&nbsp;.&nbsp;Software&nbsp;<strong>maintenance is also simplified</strong>&nbsp;, because&nbsp;<em>bugs</em>&nbsp;are easier to find and fix.</p>
 <h2 dir="auto">Comments</h2>
 <p><span>Comments are always helpful when writing code.&nbsp;</span><span>We use them for various purposes: from commenting on a line or block of code that doesn't work, to leaving small reminders such as tasks to do or explanations for our future selves.&nbsp;</span><span>All programming languages ​​allow you to add comments, and of course Python is no exception.</span></p>
-</div>
-</div>
-</div>
+
 <h2 dir="auto"><a id="user-content-bugs" class="anchor" aria-hidden="true"></a>Bugs</h2>
 <p style="color: #5e9ca0;"><span style="color: #000000;">Here is a small list of bugs that were fixed. This program is still under review.</span></p>
 <h2 dir="auto"><a id="user-content-files" class="anchor" aria-hidden="true"></a>Files</h2>

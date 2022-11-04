@@ -41,6 +41,12 @@ class HBNBCommand(cmd.Cmd):
         """
         print(end="")
 
+    def emptyline(self, line):
+        """overrides parent empty line method
+        """
+        if " " in line:
+            print(end="")
+
     def do_create(self, line):
         """
         Creates a new instance of a specified class and prints

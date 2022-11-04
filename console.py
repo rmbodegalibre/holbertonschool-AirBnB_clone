@@ -39,7 +39,7 @@ class HBNBCommand(cmd.Cmd):
     def emptyline(self):
         """overrides parent empty line method
         """
-        pass
+        print()
 
     def do_create(self, line):
         """

@@ -40,12 +40,11 @@ class HBNBCommand(cmd.Cmd):
         """overrides parent empty line method
         """
         print(end="")
-
+        
     def emptyline(self, line):
         """overrides parent empty line method
         """
-        if " " in line:
-            print(end="")
+        print(end="")
 
     def do_create(self, line):
         """
